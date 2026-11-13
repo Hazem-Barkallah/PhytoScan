@@ -1,6 +1,6 @@
 # PhytoScan — Classification des maladies des plantes
 
-> **PhytoScan** est un projet de computer vision consacré à l'identification des maladies des plantes à partir d'images de feuilles. Il a été développé dans une démarche d'apprentissage et d'expérimentation, en comparant un CNN entraîné from scratch à une approche de transfer learning basée sur MobileNetV2. Les résultats, la méthodologie et les limites sont présentés de manière transparente.
+> **PhytoScan** est un projet de computer vision consacré à l'identification des maladies des plantes à partir d'images de feuilles. Il a été développé dans une démarche d'apprentissage et d'expérimentation, en comparant un CNN entraîné from scratch à une approche de transfer learning basée sur MobileNetV2. Les résultats, la méthodologie et les limites sont présentés de manière honnête et transparente. Have fun 😊
 
 **Objectif :** identifier l'espèce et l'état sanitaire d'une plante à partir d'une photo de feuille, parmi **38 classes**, en comparant MobileNetV2 (transfer learning) à un CNN entraîné de zéro.
 
@@ -114,10 +114,14 @@ reports/    figures et métriques générées
 
 ## Pistes d'amélioration
 
-Détecter les doublons et découper par groupes d'images similaires, évaluer sur des photos réelles, ajouter une détection d'images hors distribution, essayer d'autres architectures pré-entraînées, proposer une interface de démonstration.
+1. **Détecter les doublons et découper par groupes d'images similaires.**
+2. **Evaluer sur des photos réelles.**
+3. **Ajouter une détection d'images hors distribution.**
+4. **essayer d'autres architectures pré-entraînées.**
+5. **Proposer une interface de démonstration.**
 
 ## Auteur
 
-Hazem BARKALLAH · GitHub : [](https://github.com/Hazem-Barkallah)
+Hazem BARKALLAH || [GitHub Profile](https://github.com/Hazem-Barkallah)
 
-*Projet à visée pédagogique et expérimentale. Les prédictions ne remplacent pas un diagnostic professionnel.)*
+*Projet à visée pédagogique et expérimentale. Les prédictions ne remplacent pas un diagnostic professionnel.*
