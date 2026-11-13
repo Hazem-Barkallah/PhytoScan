@@ -24,9 +24,6 @@ Le macro F1 est inférieur de 0,7 point à l'accuracy : quelques classes sont pl
 ![Accuracy, étape 1](reports/figures/accuracy_etape1.png)
 ![Accuracy, fine-tuning](reports/figures/accuracy_finetuning.png)
 
-**Matrice de confusion**
-
-![Matrice de confusion](reports/figures/confusion_matrix.png)
 
 **Analyse des erreurs**
 
