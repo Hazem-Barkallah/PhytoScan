@@ -1,0 +1,14 @@
+data_root: data/plantvillage     
+img_size: [224, 224]
+batch_size: 32
+seed: 42
+num_classes: 38
+weights: imagenet                
+n_par_classe: null # NBr d'images gardées par classe. NULL: the whole dataset (~54k images). ((For quick test set to 500 or 100))
+
+epochs_tete: 10
+epochs_finetuning: 15
+epochs_cnn: 40
+
+model_dir: models
+figures_dir: reports/figures
